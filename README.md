@@ -1,24 +1,27 @@
-# Multi-Agent Customer Support Automation System
+# Multi-Agent Customer Support AI
 
-A comprehensive customer support automation system built with LangChain, Streamlit, and FAISS, featuring three specialized AI agents working in sequence to provide accurate and contextual customer support responses.
+An advanced **customer support automation system** powered by **multiple specialized AI agents** working in sequence to deliver **accurate, contextual, and conversational support**.  
+Combines **semantic search**, **classification**, and **response generation** to create a scalable support solution.
 
-## 🎯 Project Overview
+---
 
-This project demonstrates advanced AI agent coordination for customer support automation. The system processes customer queries through three specialized agents:
+## ✨ Features
+- 🧠 **Multi-agent pipeline**:
+  - **Retrieval Agent** → fetches relevant knowledge
+  - **Classification Agent** → identifies intent/query type
+  - **Response Agent** → crafts final response
+- 🔍 **Semantic search** using FAISS vector database
+- 📂 **Knowledge base support** (FAQs, JSON datasets, documents)
+- ⚡ **Context-aware response generation** via LLMs
+- 🎨 **Interactive dashboard** with Streamlit
+- 🛠 **Configurable and extensible** for new support domains
 
-1. **Classification Agent** - Categorizes queries into predefined support categories
-2. **Retrieval Agent** - Finds relevant FAQ entries using semantic search
-3. **Response Agent** - Generates and validates contextual responses
+---
 
-## 🏗️ Technical Architecture
-
-### Core Components
-
-- **LangChain**: Multi-agent orchestration and workflow management
-- **Streamlit**: Interactive web interface for real-time query processing
-- **FAISS**: Vector similarity search for efficient FAQ retrieval
-- **Hugging Face Transformers**: Free LLM models for classification and response generation
-- **Sentence Transformers**: Text embeddings for semantic search
-
-### Agent Architecture
-
+## 🧱 Tech Stack
+- **Core Framework:** Python
+- **Orchestration:** LangChain
+- **Vector DB:** FAISS
+- **Frontend:** Streamlit
+- **Data:** JSON/PKL datasets, FAISS index
+- **LLM Integration:** OpenAI (or other pluggable providers)
