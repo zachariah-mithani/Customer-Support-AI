@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "How do I return an item?",
+        "answer": "To return an item, log into your account, go to 'My Orders', find the item you want to return, and click 'Return Item'. You'll receive a return label via email within 24 hours. Items must be returned within 30 days of purchase.",
+        "category": "refund"
+    },
+    {
+        "id": 2,
+        "question": "What is your refund policy?",
+        "answer": "We offer full refunds within 30 days of purchase. Items must be in original condition with tags attached. Refunds are processed within 5-7 business days after we receive your return.",
+        "category": "refund"
+    },
+    {
+        "id": 3,
+        "question": "My order hasn't arrived yet, what should I do?",
+        "answer": "Please check your email for tracking information. Standard shipping takes 3-5 business days. If your order is delayed beyond the expected delivery date, please contact our support team with your order number.",
+        "category": "shipping"
+    },
+    {
+        "id": 4,
+        "question": "How can I track my order?",
+        "answer": "You can track your order by logging into your account and visiting 'My Orders'. You'll also receive a tracking number via email once your order ships. Use this number on our shipping partner's website for detailed tracking.",
+        "category": "shipping"
+    },
+    {
+        "id": 5,
+        "question": "I can't log into my account",
+        "answer": "If you're having trouble logging in, try resetting your password using the 'Forgot Password' link on the login page. If you continue to have issues, please contact our support team with your email address.",
+        "category": "technical_issue"
+    },
+    {
+        "id": 6,
+        "question": "The website is not loading properly",
+        "answer": "Try clearing your browser cache and cookies, or try using a different browser. If the issue persists, please contact our technical support team with details about your browser and device.",
+        "category": "technical_issue"
+    },
+    {
+        "id": 7,
+        "question": "I was charged incorrectly",
+        "answer": "Please contact our billing department with your order number and details about the incorrect charge. We'll investigate and issue a correction within 3-5 business days if an error is confirmed.",
+        "category": "billing"
+    },
+    {
+        "id": 8,
+        "question": "When will my credit card be charged?",
+        "answer": "Your credit card will be charged when your order ships. For pre-orders, payment is processed when the item becomes available. You'll receive an email confirmation when the charge is processed.",
+        "category": "billing"
+    },
+    {
+        "id": 9,
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards (Visa, MasterCard, American Express, Discover), PayPal, Apple Pay, and Google Pay. We also offer buy-now-pay-later options through Klarna and Afterpay.",
+        "category": "billing"
+    },
+    {
+        "id": 10,
+        "question": "Do you offer international shipping?",
+        "answer": "Yes, we ship to over 50 countries worldwide. International shipping rates and delivery times vary by destination. Please check our shipping policy page for specific details about your country.",
+        "category": "shipping"
+    },
+    {
+        "id": 11,
+        "question": "What sizes do you have available?",
+        "answer": "We offer sizes XS through 3XL for most items. Please check the product page for specific size availability. We also provide a detailed size chart to help you find the perfect fit.",
+        "category": "product_info"
+    },
+    {
+        "id": 12,
+        "question": "Are your products ethically sourced?",
+        "answer": "Yes, we're committed to ethical sourcing. All our products are made in facilities that meet fair labor standards, and we work with suppliers who share our values of sustainability and worker welfare.",
+        "category": "product_info"
+    },
+    {
+        "id": 13,
+        "question": "How do I change my shipping address?",
+        "answer": "You can change your shipping address in your account settings under 'Addresses'. For orders already placed, contact our customer service team within 1 hour of placing the order to request an address change.",
+        "category": "account_management"
+    },
+    {
+        "id": 14,
+        "question": "Can I cancel my order?",
+        "answer": "Orders can be cancelled within 1 hour of placement. After this time, orders enter our fulfillment process and cannot be cancelled. You can request cancellation through your account or by contacting customer service.",
+        "category": "account_management"
+    },
+    {
+        "id": 15,
+        "question": "How do I update my email address?",
+        "answer": "To update your email address, log into your account and go to 'Account Settings'. Enter your new email address and confirm the change. You'll receive a verification email at your new address.",
+        "category": "account_management"
+    },
+    {
+        "id": 16,
+        "question": "Do you have a loyalty program?",
+        "answer": "Yes! Our VIP program offers exclusive discounts, early access to sales, and free shipping on all orders. You earn points with every purchase that can be redeemed for discounts on future orders.",
+        "category": "general_inquiry"
+    },
+    {
+        "id": 17,
+        "question": "What are your customer service hours?",
+        "answer": "Our customer service team is available Monday through Friday, 9 AM to 6 PM EST. We also offer live chat support on our website during business hours and email support 24/7.",
+        "category": "general_inquiry"
+    },
+    {
+        "id": 18,
+        "question": "Do you offer gift cards?",
+        "answer": "Yes, we offer digital gift cards in denominations of $25, $50, $100, and $200. Gift cards can be purchased on our website and are delivered via email. They never expire and can be used for any purchase.",
+        "category": "general_inquiry"
+    },
+    {
+        "id": 19,
+        "question": "How do I apply a discount code?",
+        "answer": "During checkout, you'll see a field labeled 'Discount Code' or 'Promo Code'. Enter your code there and click 'Apply'. The discount will be reflected in your order total before you complete your purchase.",
+        "category": "general_inquiry"
+    },
+    {
+        "id": 20,
+        "question": "What is your privacy policy?",
+        "answer": "We take your privacy seriously. We collect only necessary information to process your orders and improve your shopping experience. We never sell your personal information to third parties. Full details are available in our Privacy Policy page.",
+        "category": "general_inquiry"
+    }
+]

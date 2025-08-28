@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "query": "I want to return my jacket",
+        "expected_category": "refund",
+        "expected_answer_contains": ["return", "30 days", "original condition"]
+    },
+    {
+        "id": 2,
+        "query": "Website keeps crashing when I try to checkout",
+        "expected_category": "technical_issue",
+        "expected_answer_contains": ["browser", "cache", "technical support"]
+    },
+    {
+        "id": 3,
+        "query": "My package was supposed to arrive yesterday",
+        "expected_category": "shipping",
+        "expected_answer_contains": ["tracking", "3-5 business days", "order number"]
+    },
+    {
+        "id": 4,
+        "query": "I see a strange charge on my credit card",
+        "expected_category": "billing",
+        "expected_answer_contains": ["billing", "order number", "investigate"]
+    },
+    {
+        "id": 5,
+        "query": "What sizes are available for the blue shirt?",
+        "expected_category": "product_info",
+        "expected_answer_contains": ["sizes", "XS", "3XL", "size chart"]
+    },
+    {
+        "id": 6,
+        "query": "I need to change my delivery address",
+        "expected_category": "account_management",
+        "expected_answer_contains": ["shipping address", "account settings", "1 hour"]
+    },
+    {
+        "id": 7,
+        "query": "Do you have any special offers or discounts?",
+        "expected_category": "general_inquiry",
+        "expected_answer_contains": ["VIP program", "loyalty", "discounts"]
+    },
+    {
+        "id": 8,
+        "query": "How long does it take to get my money back?",
+        "expected_category": "refund",
+        "expected_answer_contains": ["refund", "5-7 business days", "processed"]
+    },
+    {
+        "id": 9,
+        "query": "Can't log into my account, forgot password",
+        "expected_category": "technical_issue",
+        "expected_answer_contains": ["password", "reset", "Forgot Password"]
+    },
+    {
+        "id": 10,
+        "query": "Where is my order? I haven't received tracking info",
+        "expected_category": "shipping",
+        "expected_answer_contains": ["tracking", "email", "My Orders"]
+    },
+    {
+        "id": 11,
+        "query": "I was charged twice for the same order",
+        "expected_category": "billing",
+        "expected_answer_contains": ["billing", "incorrect charge", "order number"]
+    },
+    {
+        "id": 12,
+        "query": "Are your products made sustainably?",
+        "expected_category": "product_info",
+        "expected_answer_contains": ["ethical", "sustainability", "fair labor"]
+    },
+    {
+        "id": 13,
+        "query": "I want to cancel my recent order",
+        "expected_category": "account_management",
+        "expected_answer_contains": ["cancel", "1 hour", "fulfillment"]
+    },
+    {
+        "id": 14,
+        "query": "What time does customer service close?",
+        "expected_category": "general_inquiry",
+        "expected_answer_contains": ["customer service", "9 AM", "6 PM EST"]
+    },
+    {
+        "id": 15,
+        "query": "Do you ship to Canada?",
+        "expected_category": "shipping",
+        "expected_answer_contains": ["international", "50 countries", "shipping policy"]
+    },
+    {
+        "id": 16,
+        "query": "My discount code isn't working",
+        "expected_category": "general_inquiry",
+        "expected_answer_contains": ["discount code", "checkout", "Promo Code"]
+    },
+    {
+        "id": 17,
+        "query": "I need to update my email in my profile",
+        "expected_category": "account_management",
+        "expected_answer_contains": ["email address", "Account Settings", "verification"]
+    },
+    {
+        "id": 18,
+        "query": "What payment options do you accept?",
+        "expected_category": "billing",
+        "expected_answer_contains": ["credit cards", "PayPal", "Apple Pay"]
+    },
+    {
+        "id": 19,
+        "query": "Can I buy a gift card for someone?",
+        "expected_category": "general_inquiry",
+        "expected_answer_contains": ["gift cards", "$25", "email"]
+    },
+    {
+        "id": 20,
+        "query": "How do you handle my personal data?",
+        "expected_category": "general_inquiry",
+        "expected_answer_contains": ["privacy", "personal information", "Privacy Policy"]
+    }
+]
